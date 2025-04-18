@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Sparkles, Send, Copy, Check, RefreshCw, RotateCw } from 'lucide-react';
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI('AIzaSyAFUSK16jyOtjA2mh7XgeNC2FIO3GooOv8');
+const genAI = new GoogleGenerativeAI('AIzaSyDGZYGwaaU82fOkMFyH641K9cHfrjH_y_U');
 
 function App() {
   const [userInput, setUserInput] = useState('');
